@@ -1,7 +1,9 @@
 body {
-  background: url(stars2.jpeg) repeat center center fixed;
+  background-image: url(./dark3.jpeg);
   -webkit-background: cover;
   -moz-background: cover;
   -o-background: cover;
-  background: cover;
+  background-size: cover;
+  background-repeat: repeat;
+ 
 }

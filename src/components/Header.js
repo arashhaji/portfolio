@@ -13,10 +13,10 @@ const useStyles = makeStyles(theme=> ({
         
     },
     title: {
-        color: "tomato"
+        color: "#00FFFF"
     },
     subtitle: {
-        color: "tan",
+        color: "#00FFFF",
         marginBottom: "3rem"
     },
     typedContainer: {
@@ -43,7 +43,7 @@ const Header = () => {
                 </Typography>
                 <br />
                 <Typography className={classes.subtitle} variant="h6">
-                    <Typed strings={["Full Stack Web Developer", "Html5", "Css", "JavaScript", "React.Js", "Node.Js", "Ruby", "Python", "Cypress", "WordPress"]} 
+                    <Typed strings={["Full Stack Web Developer", "Html5", "Css", "JavaScript", "React.Js", "Node.Js", "Python"]} 
                     typeSpeed={40} 
                     backSpeed={60}
                     loop

@@ -4,11 +4,12 @@ import Header from './Header'
 import Particles from 'react-particles-js';
 import { makeStyles } from '@material-ui/core/styles';
 
+//CSS Styles
 
 const useStyles = makeStyles({
     particlesCanva: {
         position: "absolute",
-        opacity: "0.3"
+        opacity: "0.9"
     }
 })
 
@@ -17,7 +18,7 @@ const Home = () => {
     const classes = useStyles()
 
     return (
-        <div>
+        <>
             <Navbar/>
             <Header />
             <Particles
@@ -35,11 +36,12 @@ const Home = () => {
                         type: "circle",
                         stroke: {
                             width: 1,
-                            color: "tomato"
+                            color: "black"
                         }
+                        
                     },
                     size: {
-                        value: 8,
+                        value: 9,
                         random: true,
                         anim: {
                             enable: true,
@@ -54,16 +56,16 @@ const Home = () => {
                         anim: {
                             enable: true,
                             speed: 1,
-                            opacity_min: 0.1,
+                            opacity_min: 0.6,
                             sync: true
                         }
                     }
                 }  
           }}
           />
-        </div>
-    )
-}
+      </>
+    );
+};
 
 export default Home;
 
