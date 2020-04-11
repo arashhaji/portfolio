@@ -27,11 +27,17 @@ const useStyles = makeStyles ({
     mainContainer: {
         background: "",
         height: "100%"
+        
     },
     cardContainer: {
         maxWidth: 285,
         margin: "4rem auto ",
+        textDecoration: "none",
         
+    },
+
+    button: {
+        textDecoration: "none",
     }
 });
 
@@ -63,8 +69,12 @@ const Portfolio = () => {
                     </CardContent>
                     </CardActionArea>
                     <CardActions>
+                        <Button  size="small" color="primary" textDecoration="none">
+                            <a href="https://github.com/arashhaji" target=
+                            "_blank">GitHub</a>
+                        </Button>
                         <Button  size="small" color="primary">
-                            GitHub
+                            Live Demo
                         </Button>
                     </CardActions>
             </Card>

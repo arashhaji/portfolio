@@ -105,7 +105,7 @@ const toggleSlider = ((slider, open) => () => {
                     <IconButton onClick={toggleSlider("left", true)}>
                       <ArrowBack style={{ color: "black" }}/>
                     </IconButton>
-                    <Typography variant="h5" style={{color: "black"}}>Portfolio </Typography>
+                    <Typography variant="h5" style={{color: "black"}}>Menu </Typography>
                     <MobileLeftMenuSlider
                     anchor="left"
                     open={state.left}

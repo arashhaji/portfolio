@@ -2,6 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography,Box } from '@material-ui/core';
 import Navbar from './Navbar';
+import { red } from '@material-ui/core/colors';
 
 // CSS Styles
 
@@ -78,7 +79,7 @@ const useStyles= makeStyles(theme=>({
         fontSize: "1.8rem",
         background: "#00FFFF", // add color
         color: "white", // add color
-        padding: "0.5rem 0 1rem",
+        padding: "1rem 0",
         "&:before": {
             display:"none"
         },

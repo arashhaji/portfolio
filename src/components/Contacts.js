@@ -67,7 +67,7 @@ const Contacts = () => {
                     fullWidth={true} 
                     label="First Name" 
                     variant="outlined" 
-                    inputProps={{ style: {color:"#00FFFF"}}} // add color
+                    inputProps={{ style: {color:"#ffffff"}}} // add color
                     margin="dense" 
                     size="medium"
                     />
@@ -77,7 +77,7 @@ const Contacts = () => {
                     fullWidth={true} 
                     label="Last Name" 
                     variant="outlined" 
-                    inputProps={{ style: {color:"#00FFFF"}}} // add color
+                    inputProps={{ style: {color:"#ffffff"}}} // add color
                     margin="dense" 
                     size="medium"
                     />
@@ -87,7 +87,7 @@ const Contacts = () => {
                     fullWidth={true} 
                     label="Company Name" 
                     variant="outlined" 
-                    inputProps={{ style: {color:"#00FFFF"}}} // add color
+                    inputProps={{ style: {color:"#ffffff"}}} // add color
                     margin="dense" 
                     size="medium"
                     />
@@ -97,7 +97,7 @@ const Contacts = () => {
                     fullWidth={true} 
                     label="Phone Number" 
                     variant="outlined"
-                    inputProps={{ style: {color:"#00FFFF"}}} // add color
+                    inputProps={{ style: {color:"#ffffff"}}} // add color
                     margin="dense" 
                     size="medium"
                     />
@@ -107,7 +107,7 @@ const Contacts = () => {
                     fullWidth={true} 
                     label="Email" 
                     variant="outlined" 
-                    inputProps={{ style: {color:"#00FFFF"}}} // add color
+                    inputProps={{ style: {color:"#ffffff"}}} // add color
                     margin="dense" 
                     size="medium"
                     />
