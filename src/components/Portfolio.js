@@ -16,9 +16,9 @@ import project1 from '../images/HCJ.jpg';
 import project2 from '../images/React.png';
 import project3 from '../images/nodejs.jpeg';
 import project4 from '../images/python.png';
-import project5 from '../images/ruby.jpg';
+import project5 from '../images/mongo-db-logo.png';
 import project6 from '../images/team.png';
-import Github from '@material-ui/icons/GitHub';
+
 
 
 // CSS Styles
@@ -26,19 +26,24 @@ import Github from '@material-ui/icons/GitHub';
 const useStyles = makeStyles ({
     mainContainer: {
         background: "",
-        height: "100%"
-        
-    },
-    cardContainer: {
-        maxWidth: 285,
-        margin: "4rem auto ",
-        textDecoration: "none",
+        height: "100%",
         
     },
 
+    cardContainer: {
+        maxWidth: 285,
+        margin: "4rem auto ",
+       
+        
+        
+    },
     button: {
-        textDecoration: "none",
+        textDecoration: 'none',
+        '&:hover': {
+          color: 'white'
+        }
     }
+    
 });
 
 
@@ -64,17 +69,19 @@ const Portfolio = () => {
                             Project 1
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                       Created a marketing page for a Chef Portfolio Page.
                         </Typography>
                     </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button  size="small" color="primary" textDecoration="none">
-                            <a href="https://github.com/arashhaji" target=
+                        <Button size="small" color="primary">
+                            <a href="https://github.com/chef-portfolio-bw/frontend" target=
                             "_blank">GitHub</a>
                         </Button>
                         <Button  size="small" color="primary">
-                            Live Demo
+                        <a href="https://sad-joliot-1ac22b.netlify.com" target=
+                            "_blank">Live Demo</a>
+                           
                         </Button>
                     </CardActions>
             </Card>
@@ -94,13 +101,19 @@ const Portfolio = () => {
                             Project 2
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Created a movie application that displays current movies.
                         </Typography>
                     </CardContent>
                     </CardActionArea>
                     <CardActions>
                         <Button size="small" color="primary">
-                            GitHub
+                        <a href="https://github.com/arashhaji/movieimbd" target= "_blank">GitHub</a>
+                          
+                        </Button>
+                        <Button  size="small" color="primary">
+                        <a href="https://movieimbd.netlify.com" target=
+                            "_blank">Live Demo</a>
+                           
                         </Button>
                     </CardActions>
             </Card>
@@ -120,13 +133,18 @@ const Portfolio = () => {
                             Project 3
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Created a Backend for an application that makes sure you water your plants.
                         </Typography>
                     </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="small" color="primary">
-                            Gihub
+                    <Button size="small" color="primary">
+                        <a href="https://github.com/Build-Week-Water-My-Plants3/Backend" target= "_blank">GitHub</a>
+                        </Button>
+                        <Button  size="small" color="primary">
+                        <a href="" target=
+                            "_blank">Live Demo</a>
+                           
                         </Button>
                     </CardActions>
             </Card>
@@ -177,7 +195,7 @@ const Portfolio = () => {
                     </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="small" color="primary">
+                        <Button size="small" color="primary" to="https://github.com/Build-Week-Water-My-Plants3/Backend">
                             GitHub
                         </Button>
                     </CardActions>

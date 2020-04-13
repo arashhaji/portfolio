@@ -36,13 +36,13 @@ const Home = () => {
                         type: "circle",
                         stroke: {
                             width: 1,
-                            color: "black"
+                            color: "#00ffff"
                         }
                         
                     },
                     size: {
                         value: 9,
-                        random: true,
+                        random: false,
                         anim: {
                             enable: true,
                             speed: 6,
