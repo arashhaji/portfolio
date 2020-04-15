@@ -25,14 +25,15 @@ const useStyles = makeStyles(theme=>({
 const InputField = withStyles({
     root:{
         "& label.Mui-focused": {
-            color: "#00FFFF", // add color
+            color: "", // add color
         },
         "& label": {
-            color: "#00FFFF", // add color
+            color: "white", // add color
         },
         "&.MuiOutlinedInput-root": {
             "& fieldSet": {
-                borderColor: "#00FFFF", // add color
+                borderColor: "", // add color
+               
             },
             "&:hover fieldset": {
                 borderColor: "#00FFFF", // add color
@@ -59,6 +60,8 @@ const Contacts = () => {
                         color: "#00FFFF", // add color
                         textAlign: "center",
                         textTransform: "uppercase",
+                       
+                        
                     }}
                     >
                         contact me
@@ -67,9 +70,10 @@ const Contacts = () => {
                     fullWidth={true} 
                     label="First Name" 
                     variant="outlined" 
-                    inputProps={{ style: {color:"#ffffff"}}} // add color
+                    inputProps={{ style: {color:"", backgroundColor: "#18ffff",}}} // add color
                     margin="dense" 
                     size="medium"
+                    
                     />
                     <br/>
 
@@ -77,7 +81,7 @@ const Contacts = () => {
                     fullWidth={true} 
                     label="Last Name" 
                     variant="outlined" 
-                    inputProps={{ style: {color:"#ffffff"}}} // add color
+                    inputProps={{ style: {color:"", backgroundColor: "#18ffff",}}} // add color
                     margin="dense" 
                     size="medium"
                     />
@@ -87,7 +91,7 @@ const Contacts = () => {
                     fullWidth={true} 
                     label="Company Name" 
                     variant="outlined" 
-                    inputProps={{ style: {color:"#ffffff"}}} // add color
+                    inputProps={{ style: {color:"#ffffff", backgroundColor: "#18ffff",}}} // add color
                     margin="dense" 
                     size="medium"
                     />
@@ -97,7 +101,7 @@ const Contacts = () => {
                     fullWidth={true} 
                     label="Phone Number" 
                     variant="outlined"
-                    inputProps={{ style: {color:"#ffffff"}}} // add color
+                    inputProps={{ style: {color:"#ffffff", backgroundColor: "#18ffff",}}} // add color
                     margin="dense" 
                     size="medium"
                     />
@@ -107,7 +111,7 @@ const Contacts = () => {
                     fullWidth={true} 
                     label="Email" 
                     variant="outlined" 
-                    inputProps={{ style: {color:"#ffffff"}}} // add color
+                    inputProps={{ style: {color:"#ffffff", backgroundColor: "#18ffff",}}} // add color
                     margin="dense" 
                     size="medium"
                     />

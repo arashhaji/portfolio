@@ -21,7 +21,8 @@ import {
     AssignmentInd,
     Home,
     Apps,
-    ContactMail
+    ContactMail,
+    ImportContacts
 } from "@material-ui/icons";
 import avatar from '../myAvatar.png'
 
@@ -64,6 +65,11 @@ const menuItems = [
         listIcon: <ContactMail/>,
         listText: "Contacts",
         listPath: "/contacts"
+    },
+    {
+        listIcon: <ImportContacts/>,
+        listText: "Articles",
+        listPath: "/articles"
     }
 ]
 
