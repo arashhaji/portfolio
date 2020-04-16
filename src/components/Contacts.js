@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import axios from 'axios';
 import { makeStyles, withStyles} from '@material-ui/core/styles';
 import { TextField,Typography,Button,Grid,Box } from '@material-ui/core';
 import SendIcon from '@material-ui/icons/Send';
@@ -46,6 +47,28 @@ const InputField = withStyles({
 })(TextField);
 
 const Contacts = () => {
+    const [contact, setContact] = useState({
+        first: '',
+        last: '', 
+        company: '', 
+        phone: '', 
+        email: ''
+    });
+
+    const handleChange = e => {
+        setContact({...contact, [e.target.name]: e.target.value})
+    }
+
+    const handleSubmit = e => {
+        e.preventDefault();
+        
+        axios.post("https://getform.io/f/36b12311-dad1-41c6-8c66-5e4f35c93919", contact , { headers: { Accept: "application/json"}})
+            .then(res => {
+                console.log(res)
+            })
+            .catch(err => console.log(err))
+    }
+
 
     const classes = useStyles()
 
@@ -59,16 +82,17 @@ const Contacts = () => {
                     style={{
                         color: "#00FFFF", // add color
                         textAlign: "center",
-                        textTransform: "uppercase",
-                       
-                        
+                        textTransform: "uppercase",                        
                     }}
                     >
                         contact me
                     </Typography>
+                    <form onSubmit={handleSubmit}>
                     <InputField 
                     fullWidth={true} 
                     label="First Name" 
+                    value={contact.first}
+                    onChange={handleChange}
                     variant="outlined" 
                     inputProps={{ style: {color:"", backgroundColor: "#18ffff",}}} // add color
                     margin="dense" 
@@ -80,6 +104,8 @@ const Contacts = () => {
                     <InputField 
                     fullWidth={true} 
                     label="Last Name" 
+                    value={contact.last}
+                    onChange={handleChange}
                     variant="outlined" 
                     inputProps={{ style: {color:"", backgroundColor: "#18ffff",}}} // add color
                     margin="dense" 
@@ -90,6 +116,8 @@ const Contacts = () => {
                     <InputField 
                     fullWidth={true} 
                     label="Company Name" 
+                    value={contact.company}
+                    onChange={handleChange}
                     variant="outlined" 
                     inputProps={{ style: {color:"#ffffff", backgroundColor: "#18ffff",}}} // add color
                     margin="dense" 
@@ -99,7 +127,9 @@ const Contacts = () => {
 
                     <InputField 
                     fullWidth={true} 
-                    label="Phone Number" 
+                    label="Phone Number"
+                    value={contact.phone} 
+                    onChange={handleChange}
                     variant="outlined"
                     inputProps={{ style: {color:"#ffffff", backgroundColor: "#18ffff",}}} // add color
                     margin="dense" 
@@ -110,6 +140,8 @@ const Contacts = () => {
                     <InputField 
                     fullWidth={true} 
                     label="Email" 
+                    value={contact.email}
+                    onChange={handleChange}
                     variant="outlined" 
                     inputProps={{ style: {color:"#ffffff", backgroundColor: "#18ffff",}}} // add color
                     margin="dense" 
@@ -118,6 +150,7 @@ const Contacts = () => {
                     <br/>
 
                     <Button 
+                    type="submit"
                     className={classes.button}
                     variant="outlined" 
                     fullWidth={true}
@@ -125,6 +158,7 @@ const Contacts = () => {
                     >
                         Submit
                     </Button>
+                    </form>
                 </Box>
             </Grid>
         </Box>
