@@ -99,19 +99,23 @@ const Contacts = () => {
                         contact me
                     </Typography>
                     <form onSubmit={handleSubmit}>
-                    <InputField 
-                    fullWidth={true} 
-                    name="first"
-                    label="First Name" 
-                    value={contact.first}
-                    onChange={handleChange}
-                    variant="outlined" 
-                    inputProps={{ style: {color:"", backgroundColor: "#18ffff",}}} // add color
-                    margin="dense" 
-                    size="medium"
-                    
-                    />
-                    <br/>
+                    <div className="input-background">
+
+                        <InputField 
+                        fullWidth={true} 
+                        name="first"
+                        label="First Name" 
+                        value={contact.first}
+                        onChange={handleChange}
+                        variant="outlined" 
+                        inputProps={{ style: {color:"", backgroundColor: "#18ffff",}}} // add color
+                        margin="dense" 
+                        size="medium"
+                        
+                        />
+                    </div>
+
+                    <div className="input-background">
 
                     <InputField 
                     fullWidth={true} 
@@ -124,7 +128,8 @@ const Contacts = () => {
                     margin="dense" 
                     size="medium"
                     />
-                    <br/>
+                    </div>
+                    <div className="input-background">
                     
                     <InputField 
                     fullWidth={true} 
@@ -137,8 +142,9 @@ const Contacts = () => {
                     margin="dense" 
                     size="medium"
                     />
-                    <br/>
+                    </div>
 
+                    <div className="input-background">
                     <InputField 
                     fullWidth={true} 
                     label="Phone Number"
@@ -146,12 +152,13 @@ const Contacts = () => {
                     value={contact.phone} 
                     onChange={handleChange}
                     variant="outlined"
-                    inputProps={{ style: {color:"#ffffff", backgroundColor: "#18ffff",}}} // add color
+                    inputProps={{ style: {color:"", backgroundColor: "#18ffff",}}} // add color
                     margin="dense" 
                     size="medium"
                     />
-                    <br/>
+                    </div>
 
+                    <div className="input-background">
                     <InputField 
                     fullWidth={true} 
                     label="Email" 
@@ -159,11 +166,12 @@ const Contacts = () => {
                     value={contact.email}
                     onChange={handleChange}
                     variant="outlined" 
-                    inputProps={{ style: {color:"#ffffff", backgroundColor: "#18ffff",}}} // add color
+                    inputProps={{ style: {color:"", backgroundColor: "#18ffff",}}} // add color
                     margin="dense" 
                     size="medium"
                     />
-                    <br/>
+                    </div>
+
 
                     <Button 
                     type="submit"
