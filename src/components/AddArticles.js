@@ -24,22 +24,14 @@ const Articles = () => {
     setArticle('');
     setAuthorName('');
 
-    // axios
-    //     .post('/articles/add', articles)
-    //     .then(res => console.log(res.data))
-    //     .catch(err => {
-    //         console.log(err);
-    // });
+    axios
+        .post('/articles/add', articles)
+        .then(res => console.log(res.data))
+        .catch(err => {
+            console.log(err);
+    });
 
-
-    axios.get('/')
-    .then(res => console.log(res.data))
-    .catch(err => {
-        console.log(err);
-});
-  
-
-    };
+ };
 
 
     return (
