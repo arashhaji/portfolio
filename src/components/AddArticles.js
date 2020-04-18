@@ -24,12 +24,20 @@ const Articles = () => {
     setArticle('');
     setAuthorName('');
 
-    axios
-        .post('/articles/add', articles)
-        .then(res => console.log(res.data))
-        .catch(err => {
-            console.log(err);
-    });
+    // axios
+    //     .post('/articles/add', articles)
+    //     .then(res => console.log(res.data))
+    //     .catch(err => {
+    //         console.log(err);
+    // });
+
+
+    axios.get('/')
+    .then(res => console.log(res.data))
+    .catch(err => {
+        console.log(err);
+});
+  
 
     };
 
@@ -63,7 +71,7 @@ const Articles = () => {
              <label htmlFor="article">Article</label>
              <textarea 
                 onChange={e => setArticle(e.target.value)}
-                class="form-control" 
+                className="form-control" 
                 rows="3">
             </textarea>
             </div>
