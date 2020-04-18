@@ -8,15 +8,10 @@ import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Contacts from './components/Contacts';
 import Articles from './components/Articles';
+import AddArticles from './components/AddArticles';
 
 function App() {
-  // const [posts, setPosts] = useState([])
-  // useEffect(() => {
-  //     axios
-  //     .get('http://localhost:5000/articles')
-  //     .then(res => setPosts(res.data))
-  //     .catch(error => console.log(error));
-  // });
+ 
   return (
     <>
     <CssBaseline/>
@@ -25,7 +20,7 @@ function App() {
        <Route path="/portfolio" component={Portfolio}/>
        <Route path="/contacts" component={Contacts}/>
        <Route path="/articles" component={Articles}/>
-       {/* <Route path ="/" render={()=> <Articles posts={posts}/>} /> */}
+       <Route path="/addarticles" component={AddArticles}/>
     </>
   );
 }

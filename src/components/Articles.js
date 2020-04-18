@@ -1,24 +1,22 @@
-// import React from 'react';
-// import Navbar from './Navbar';
-// import styled from 'styled-components';
+import React from 'react';
+import Navbar from './Navbar';
+import styled from 'styled-components';
 
 
 
 
-// const Articles = ({posts}) => {
+const Articles = () => {
   
-//     return (
-//         <>
+    return (
+        <>
         
-//             <Navbar/>
-//            {posts.map((article, key) => 
-//            <h2>{article.title}</h2>
-//            )}
+            <Navbar/>
+
         
-//         </>
-//     )
-// };
-// export default Articles;
+        </>
+    )
+};
+export default Articles;
 
 
 

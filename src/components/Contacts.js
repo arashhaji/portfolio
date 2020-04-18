@@ -29,7 +29,7 @@ const InputField = withStyles({
             color: "", // add color
         },
         "& label": {
-            color: "white", // add color
+            color: "black", // add color
         },
         "&.MuiOutlinedInput-root": {
             "& fieldSet": {
@@ -133,7 +133,7 @@ const Contacts = () => {
                     value={contact.company}
                     onChange={handleChange}
                     variant="outlined" 
-                    inputProps={{ style: {color:"#ffffff", backgroundColor: "#18ffff",}}} // add color
+                    inputProps={{ style: {color:"", backgroundColor: "#18ffff",}}} // add color
                     margin="dense" 
                     size="medium"
                     />

@@ -78,7 +78,7 @@ const useStyles= makeStyles(theme=>({
         margin: "0 3rem 0 auto",
         fontSize: "1.8rem",
         background: "#00FFFF", // add color
-        color: "white", // add color
+        color: "black", // add color
         padding: "1rem 0",
         "&:before": {
             display:"none"

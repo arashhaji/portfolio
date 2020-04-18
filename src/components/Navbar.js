@@ -22,7 +22,8 @@ import {
     Home,
     Apps,
     ContactMail,
-    ImportContacts
+    ImportContacts,
+    AddCircle
 } from "@material-ui/icons";
 import avatar from '../myAvatar.png'
 
@@ -70,6 +71,11 @@ const menuItems = [
         listIcon: <ImportContacts/>,
         listText: "Articles",
         listPath: "/articles"
+    },
+    {
+        listIcon: <AddCircle/>,
+        listText: "Add Articles",
+        listPath: "/addArticles"
     }
 ]
 
