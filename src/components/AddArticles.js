@@ -38,15 +38,15 @@ const Articles = () => {
 <AddArticleContainer>
     <Navbar/>
     <div className="container">
-        <h1>Add New Article</h1>
-        <form onSubmit={changeOnClick} encType="multipart/form-data">
+        <div><h1>ADD NEW ARTICLE</h1></div>
+        <form className="formContainer" onSubmit={changeOnClick} encType="multipart/form-data">
             <div className="form-group">
              <label htmlFor="authorname">Author Name</label>
                  <input 
                     type="text" 
                     onChange={e => setAuthorName(e.target.value)}
                     className="form-control" 
-                    placeholder="Author Name"
+                    
                   />
             </div>
             <div className="form-group">
@@ -55,7 +55,7 @@ const Articles = () => {
                     type="text" 
                     onChange={e => setTitle(e.target.value)}
                     className="form-control" 
-                    placeholder="Title"
+                    
                  />
 
             </div>
@@ -79,5 +79,59 @@ const Articles = () => {
 export default Articles;
 
 const AddArticleContainer = styled.div`
+
+.container {
+    display: flex;
+    color: #00FFFF;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+}
+
+h1 {
+    font-size: 2.125rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.235;
+    color: #00FFFF;
+    letter-spacing: 0.00735em;
+}
+
+.formContainer {
+    width: 25%;
+}
+
+.form-group {
+    display: flex; 
+    flex-direction: column;
+    font-size: 1.6rem;
+    margin: 20px 0;
+    
+}
+input {
+    height: 40px;
+    font-size: 1rem;
+   
+}
+
+textArea {
+    height: 500px;
+
+}
+
+label {
+    margin-bottom: 5px;
+}
+.btn-primary {
+    font-size: 2em;
+    padding: 0.25em 1em;
+    background-color: Transparent;
+    // opacity: 0.0;
+    border: 2px solid #00FFFF;
+    color: #00FFFF;
+    border-radius: 5px;
+    
+    
+}
 `
 ;

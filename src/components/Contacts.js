@@ -11,36 +11,43 @@ const useStyles = makeStyles(theme=>({
     form: {
         top: "50%",
         left: "50%",
+        width: "20%",
         transform: "translate(-50%, -50%)",
         position: "absolute",
         
         
     },
     button: {
-        marginTop: "1rem",
-        color: "#00FFFF", // add color
-        borderColor: "#00FFFF", // add color
+        marginTop: "2rem",
+        color: "#00FFFF", 
+        borderColor: "#00FFFF", 
     }
 }))
 
 const InputField = withStyles({
     root:{
         "& label.Mui-focused": {
-            color: "", // add color
+            color: "#00FFFF", 
         },
         "& label": {
-            color: "black", // add color
+            color: "white",  
         },
-        "&.MuiOutlinedInput-root": {
-            "& fieldSet": {
-                borderColor: "", // add color
-               
+
+        '& label.Mui-focused': {
+            color: "#00FFFF",
+          },
+          '& .MuiInput-underline:after': {
+            borderBottomColor: "#00FFFF",
+          },
+          '& .MuiOutlinedInput-root': {
+            '& fieldset': {
+              borderColor: "#00FFFF",
             },
-            "&:hover fieldset": {
-                borderColor: "#00FFFF", // add color
+            '&:hover fieldset': {
+              borderColor: "#00FFFF",
             },
-            "& .Mui-focused fieldset": {
-                borderColor: "#00FFFF", // add color
+            '&.Mui-focused fieldset': {
+              borderColor: "#00FFFF",
             },
         },
     },
@@ -79,6 +86,7 @@ const Contacts = () => {
         
         setContact(initialValue)
     }
+    
 
 
     const classes = useStyles()
@@ -91,9 +99,9 @@ const Contacts = () => {
                     <Typography 
                     variant="h5"
                     style={{
-                        color: "#00FFFF", // add color
+                        color: "#00FFFF", 
                         textAlign: "center",
-                        textTransform: "uppercase",                        
+                        textTransform: "uppercase",                       
                     }}
                     >
                         contact me
@@ -108,9 +116,10 @@ const Contacts = () => {
                         value={contact.first}
                         onChange={handleChange}
                         variant="outlined" 
-                        inputProps={{ style: {color:"", backgroundColor: "#18ffff",}}} // add color
+                        inputProps={{ style: {color:"white", backgroundColor: "",}}} 
                         margin="dense" 
                         size="medium"
+                
                         
                         />
                     </div>
@@ -124,7 +133,7 @@ const Contacts = () => {
                     value={contact.last}
                     onChange={handleChange}
                     variant="outlined" 
-                    inputProps={{ style: {color:"", backgroundColor: "#18ffff",}}} // add color
+                    inputProps={{ style: {color:"white", backgroundColor: "",}}} 
                     margin="dense" 
                     size="medium"
                     />
@@ -138,7 +147,7 @@ const Contacts = () => {
                     value={contact.company}
                     onChange={handleChange}
                     variant="outlined" 
-                    inputProps={{ style: {color:"", backgroundColor: "#18ffff",}}} // add color
+                    inputProps={{ style: {color:"", backgroundColor: "",}}} 
                     margin="dense" 
                     size="medium"
                     />
@@ -152,7 +161,7 @@ const Contacts = () => {
                     value={contact.phone} 
                     onChange={handleChange}
                     variant="outlined"
-                    inputProps={{ style: {color:"", backgroundColor: "#18ffff",}}} // add color
+                    inputProps={{ style: {color:"", backgroundColor: "",}}}
                     margin="dense" 
                     size="medium"
                     />
@@ -166,7 +175,7 @@ const Contacts = () => {
                     value={contact.email}
                     onChange={handleChange}
                     variant="outlined" 
-                    inputProps={{ style: {color:"", backgroundColor: "#18ffff",}}} // add color
+                    inputProps={{ style: {color:"", backgroundColor: "",}}} 
                     margin="dense" 
                     size="medium"
                     />
