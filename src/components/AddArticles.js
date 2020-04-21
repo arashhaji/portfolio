@@ -26,12 +26,18 @@ const Articles = () => {
 
     axios
         .post('/articles/add', articles)
-        .then(res => console.log(res.data))
+        .then(res => {
+            console.log(res.data)
+            alert("Article Posted")
+        })
         .catch(err => {
             console.log(err);
+            alert("Article Posted Failed")
     });
 
  };
+
+
 
 
     return (

@@ -11,7 +11,6 @@ const useStyles = makeStyles(theme=>({
     form: {
         top: "50%",
         left: "50%",
-        width: "20%",
         transform: "translate(-50%, -50%)",
         position: "absolute",
         
