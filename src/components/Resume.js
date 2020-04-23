@@ -126,7 +126,7 @@ const Resume = () => {
                         align="center"
                         className={classes.subHeading}
                         >
-                            About
+                            About Me
                         </Typography>
                         <Typography 
                         variant="body1" 
@@ -209,7 +209,7 @@ const Resume = () => {
                         variant="subtitle1" 
                         align="center" // add color
                         style={{color: "#00FFFF"}}>
-                            Full Stack Web Development JavaScript, React, HTML, CSS, NODE, PYTHON, REDUX, and SQL. 
+                            Full Stack Web Development JavaScript, REACT, HTML, CSS, NODE, PYTHON, REDUX, and SQL. 
                            
                         </Typography>
 

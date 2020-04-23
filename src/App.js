@@ -7,8 +7,7 @@ import Home from './components/index';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Contacts from './components/Contacts';
-import Articles from './components/Articles';
-import AddArticles from './components/AddArticles';
+
 
 function App() {
  
@@ -19,8 +18,6 @@ function App() {
        <Route path="/resume" component={Resume}/>
        <Route path="/portfolio" component={Portfolio}/>
        <Route path="/contacts" component={Contacts}/>
-       <Route path="/articles" component={Articles}/>
-       <Route path="/addarticles" component={AddArticles}/>
     </>
   );
 }

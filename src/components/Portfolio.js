@@ -66,7 +66,7 @@ const Portfolio = () => {
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5">
-                            Project 1
+                            Chef Portfolio
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
                        Created a marketing page for a Chef Portfolio Page.
@@ -98,7 +98,7 @@ const Portfolio = () => {
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5">
-                            Project 2
+                            React Movie 
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
                         Created a movie application that displays current movies.
@@ -130,7 +130,7 @@ const Portfolio = () => {
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5">
-                            Project 3
+                            Water My Plants
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
                         Created a Backend for an application that makes sure you water your plants.
@@ -142,7 +142,7 @@ const Portfolio = () => {
                         <a href="https://github.com/Build-Week-Water-My-Plants3/Backend" target= "_blank">GitHub</a>
                         </Button>
                         <Button  size="small" color="primary">
-                        <a href="" target=
+                        <a href="https://planetplanners.netlify.com" target=
                             "_blank">Live Demo</a>
                            
                         </Button>
@@ -161,16 +161,21 @@ const Portfolio = () => {
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5">
-                            Project 4
+                            Working Progress
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Working Progrees 
                         </Typography>
                     </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="small" color="primary">
-                            Github
+                    <Button size="small" color="primary">
+                        <a href="" target= "_blank">GitHub</a>
+                        </Button>
+                        <Button  size="small" color="primary">
+                        <a href="" target=
+                            "_blank">Live Demo</a>
+                           
                         </Button>
                     </CardActions>
             </Card>
@@ -187,16 +192,21 @@ const Portfolio = () => {
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5">
-                            Project 5
+                            BLOG
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        My very own Blog website. Were I can post my favorite blogs about Techology.
                         </Typography>
                     </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="small" color="primary" to="https://github.com/Build-Week-Water-My-Plants3/Backend">
-                            GitHub
+                    <Button size="small" color="primary">
+                        <a href="" target= "_blank">GitHub</a>
+                        </Button>
+                        <Button  size="small" color="primary">
+                        <a href="" target=
+                            "_blank">Live Demo</a>
+                           
                         </Button>
                     </CardActions>
             </Card>
@@ -213,16 +223,21 @@ const Portfolio = () => {
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5">
-                            Project 6
+                            Miracle Messages
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        An application for the homeless to find their loved ones.
                         </Typography>
                     </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="small" color="primary">
-                            GitHub
+                    <Button size="small" color="primary">
+                        <a href="https://github.com/Lambda-School-Labs/miracle-messages-fe" target= "_blank">GitHub</a>
+                        </Button>
+                        <Button  size="small" color="primary">
+                        <a href="https://production.d1v4uoi0wi2hmy.amplifyapp.com" target=
+                            "_blank">Live Demo</a>
+                           
                         </Button>
                     </CardActions>
             </Card>

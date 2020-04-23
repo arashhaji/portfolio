@@ -67,16 +67,6 @@ const menuItems = [
         listText: "Contacts",
         listPath: "/contacts"
     },
-    {
-        listIcon: <ImportContacts/>,
-        listText: "Articles",
-        listPath: "/articles"
-    },
-    {
-        listIcon: <AddCircle/>,
-        listText: "Add Articles",
-        listPath: "/addArticles"
-    }
 ]
 
 const Navbar = () => {
