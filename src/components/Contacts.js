@@ -146,7 +146,7 @@ const Contacts = () => {
                     value={contact.company}
                     onChange={handleChange}
                     variant="outlined" 
-                    inputProps={{ style: {color:"", backgroundColor: "",}}} 
+                    inputProps={{ style: {color:"white", backgroundColor: "",}}} 
                     margin="dense" 
                     size="medium"
                     />
@@ -160,7 +160,7 @@ const Contacts = () => {
                     value={contact.phone} 
                     onChange={handleChange}
                     variant="outlined"
-                    inputProps={{ style: {color:"", backgroundColor: "",}}}
+                    inputProps={{ style: {color:"white", backgroundColor: "",}}}
                     margin="dense" 
                     size="medium"
                     />
@@ -174,7 +174,7 @@ const Contacts = () => {
                     value={contact.email}
                     onChange={handleChange}
                     variant="outlined" 
-                    inputProps={{ style: {color:"", backgroundColor: "",}}} 
+                    inputProps={{ style: {color:"white", backgroundColor: "",}}} 
                     margin="dense" 
                     size="medium"
                     />
