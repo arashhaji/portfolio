@@ -5,6 +5,7 @@ import Typed from 'react-typed';
 import avatar from '../myAvatar.png';
 
 //CSS Styles
+
 const useStyles = makeStyles(theme=> ({
     avatar: {
         width: theme.spacing(15),
@@ -24,7 +25,7 @@ const useStyles = makeStyles(theme=> ({
         top: "50%",
         left: "50%",
         transform: "translate(-50%, -50%)",
-        width: "100vw",
+        width: "100%",
         textAlign: "center",
         zIndex: 1
     }
@@ -58,3 +59,8 @@ const Header = () => {
 }
 
 export default Header;
+
+
+
+
+

@@ -42,7 +42,15 @@ const useStyles = makeStyles ({
         '&:hover': {
           color: 'white'
         }
-    }
+    },
+
+    link: {
+        color: 'black',
+        textDecoration: 'none',
+        '&:hover': {
+          color: '#00FFFF',
+        },
+    },
     
 });
 
@@ -73,14 +81,14 @@ const Portfolio = () => {
                         </Typography>
                     </CardContent>
                     </CardActionArea>
-                    <CardActions>
-                        <Button size="small" color="primary">
-                            <a href="https://github.com/chef-portfolio-bw/frontend" target=
+                    <CardActions >
+                        <Button  size="small" color="primary">
+                            <a className={classes.link} href="https://github.com/chef-portfolio-bw/frontend" target=
                             "_blank">GitHub</a>
                         </Button>
                         <Button  size="small" color="primary">
-                        <a href="https://sad-joliot-1ac22b.netlify.com" target=
-                            "_blank">Live Demo</a>
+                        <a className={classes.link} href="https://sad-joliot-1ac22b.netlify.com" target=
+                            "_blank" >Live Demo</a>
                            
                         </Button>
                     </CardActions>
@@ -107,11 +115,11 @@ const Portfolio = () => {
                     </CardActionArea>
                     <CardActions>
                         <Button size="small" color="primary">
-                        <a href="https://github.com/arashhaji/movieimbd" target= "_blank">GitHub</a>
+                        <a className={classes.link} href="https://github.com/arashhaji/movieimbd" target= "_blank">GitHub</a>
                           
                         </Button>
                         <Button  size="small" color="primary">
-                        <a href="https://movieimbd.netlify.com" target=
+                        <a className={classes.link} href="https://movieimbd.netlify.com" target=
                             "_blank">Live Demo</a>
                            
                         </Button>
@@ -139,10 +147,10 @@ const Portfolio = () => {
                     </CardActionArea>
                     <CardActions>
                     <Button size="small" color="primary">
-                        <a href="https://github.com/Build-Week-Water-My-Plants3/Backend" target= "_blank">GitHub</a>
+                        <a className={classes.link}  href="https://github.com/Build-Week-Water-My-Plants3/Backend" target= "_blank">GitHub</a>
                         </Button>
                         <Button  size="small" color="primary">
-                        <a href="https://planetplanners.netlify.com" target=
+                        <a className={classes.link}  href="https://planetplanners.netlify.com" target=
                             "_blank">Live Demo</a>
                            
                         </Button>
@@ -161,19 +169,19 @@ const Portfolio = () => {
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5">
-                            Working Progress
+                            Under Construction
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                        Working Progrees 
+                        Under Construction
                         </Typography>
                     </CardContent>
                     </CardActionArea>
                     <CardActions>
                     <Button size="small" color="primary">
-                        <a href="" target= "_blank">GitHub</a>
+                        <a className={classes.link}  href="" target= "_blank">GitHub</a>
                         </Button>
                         <Button  size="small" color="primary">
-                        <a href="" target=
+                        <a className={classes.link}  href="" target=
                             "_blank">Live Demo</a>
                            
                         </Button>
@@ -192,7 +200,7 @@ const Portfolio = () => {
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5">
-                            BLOG
+                            Under Construction
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
                         My very own Blog website. Were I can post my favorite blogs about Techology.
@@ -201,10 +209,10 @@ const Portfolio = () => {
                     </CardActionArea>
                     <CardActions>
                     <Button size="small" color="primary">
-                        <a href="" target= "_blank">GitHub</a>
+                        <a  className={classes.link}  href="" target= "_blank">GitHub</a>
                         </Button>
                         <Button  size="small" color="primary">
-                        <a href="" target=
+                        <a className={classes.link}  href="" target=
                             "_blank">Live Demo</a>
                            
                         </Button>
@@ -232,10 +240,10 @@ const Portfolio = () => {
                     </CardActionArea>
                     <CardActions>
                     <Button size="small" color="primary">
-                        <a href="https://github.com/Lambda-School-Labs/miracle-messages-fe" target= "_blank">GitHub</a>
+                        <a  className={classes.link}  href="https://github.com/Lambda-School-Labs/miracle-messages-fe" target= "_blank">GitHub</a>
                         </Button>
                         <Button  size="small" color="primary">
-                        <a href="https://production.d1v4uoi0wi2hmy.amplifyapp.com" target=
+                        <a className={classes.link}  href="https://production.d1v4uoi0wi2hmy.amplifyapp.com" target=
                             "_blank">Live Demo</a>
                            
                         </Button>

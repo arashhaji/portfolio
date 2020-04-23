@@ -17,15 +17,16 @@ import {
     Box
 } from "@material-ui/core";
 import {
-    ArrowBack,
     AssignmentInd,
     Home,
     Apps,
     ContactMail,
-    ImportContacts,
-    AddCircle
+  
+   
 } from "@material-ui/icons";
 import avatar from '../myAvatar.png'
+import MenuSharpIcon from '@material-ui/icons/MenuSharp';
+
 
 // CSS Styles
 
@@ -105,9 +106,9 @@ const toggleSlider = ((slider, open) => () => {
             <AppBar position="static" style={{background: "#00FFFF"}}>
                 <Toolbar>
                     <IconButton onClick={toggleSlider("left", true)}>
-                      <ArrowBack style={{ color: "black" }}/>
+                      <MenuSharpIcon style={{ color: "black" }}/>
                     </IconButton>
-                    <Typography variant="h5" style={{color: "black"}}>Menu </Typography>
+                    <Typography variant="h5" style={{color: "black"}}> </Typography>
                     <MobileLeftMenuSlider
                     anchor="left"
                     open={state.left}
