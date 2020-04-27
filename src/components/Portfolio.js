@@ -18,6 +18,8 @@ import project3 from '../images/nodejs.jpeg';
 import project4 from '../images/python.png';
 import project5 from '../images/mongo-db-logo.png';
 import project6 from '../images/team.png';
+import { FullscreenExit } from '@material-ui/icons';
+import { Row } from 'reactstrap';
 
 
 
@@ -33,9 +35,14 @@ const useStyles = makeStyles ({
     cardContainer: {
         maxWidth: 285,
         margin: "4rem auto ",
-       
+      
         
-        
+    },
+    card: {
+        flexGrow: 0,
+        maxWidth: "32%",
+        flexBasis: "50%",
+
     },
     button: {
         textDecoration: 'none',
@@ -63,7 +70,7 @@ const Portfolio = () => {
        <Navbar />
        <Grid container justify="center">
            {/* Project 1 */}
-           <Grid item xs={12} sm={8} md={6}>
+           <Grid className={classes.card} item xs={12} sm={8} md={6}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
                     <CardMedia
@@ -95,7 +102,7 @@ const Portfolio = () => {
             </Card>
             </Grid>
             {/* Project 2 */}
-           <Grid item xs={12} sm={8} md={6}>
+           <Grid className={classes.card} item xs={12} sm={8} md={6}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
                     <CardMedia
@@ -127,7 +134,7 @@ const Portfolio = () => {
             </Card>
             </Grid>
             {/* Project 3 */}
-           <Grid item xs={12} sm={8} md={6}>
+           <Grid className={classes.card} item xs={12} sm={8} md={6}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
                     <CardMedia
@@ -158,7 +165,7 @@ const Portfolio = () => {
             </Card>
             </Grid>
             {/* Project 4 */}
-           <Grid item xs={12} sm={8} md={6}>
+           <Grid className={classes.card} item xs={12} sm={8} md={6}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
                     <CardMedia
@@ -189,7 +196,7 @@ const Portfolio = () => {
             </Card>
             </Grid>
             {/* Project 5 */}
-           <Grid item xs={12} sm={8} md={6}>
+           <Grid className={classes.card} item xs={12} sm={8} md={6}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
                     <CardMedia
@@ -220,7 +227,7 @@ const Portfolio = () => {
             </Card>
            </Grid>
             {/* Project 6*/}
-           <Grid item xs={12} sm={8} md={6}>
+           <Grid className={classes.card} item xs={12} sm={8} md={6}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
                     <CardMedia
