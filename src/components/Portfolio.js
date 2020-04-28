@@ -18,8 +18,7 @@ import project3 from '../images/nodejs.jpeg';
 import project4 from '../images/python.png';
 import project5 from '../images/mongo-db-logo.png';
 import project6 from '../images/team.png';
-import { FullscreenExit } from '@material-ui/icons';
-import { Row } from 'reactstrap';
+
 
 
 
@@ -36,14 +35,12 @@ const useStyles = makeStyles ({
         maxWidth: 285,
         margin: "4rem auto ",
       
-        
     },
-    card: {
-        flexGrow: 0,
-        maxWidth: "32%",
-        flexBasis: "50%",
+    // card: {
+    //     maxWidth: "32%",
+    //     flexBasis: "50%",
 
-    },
+    // },
     button: {
         textDecoration: 'none',
         '&:hover': {
@@ -70,7 +67,7 @@ const Portfolio = () => {
        <Navbar />
        <Grid container justify="center">
            {/* Project 1 */}
-           <Grid className={classes.card} item xs={12} sm={8} md={6}>
+           <Grid className={classes.card} item xs={12} sm={6} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
                     <CardMedia
@@ -91,18 +88,18 @@ const Portfolio = () => {
                     <CardActions >
                         <Button  size="small" color="primary">
                             <a className={classes.link} href="https://github.com/chef-portfolio-bw/frontend" target=
-                            "_blank">GitHub</a>
+                            "blank">GitHub</a>
                         </Button>
                         <Button  size="small" color="primary">
                         <a className={classes.link} href="https://sad-joliot-1ac22b.netlify.com" target=
-                            "_blank" >Live Demo</a>
+                            "blank" >Live Demo</a>
                            
                         </Button>
                     </CardActions>
             </Card>
             </Grid>
             {/* Project 2 */}
-           <Grid className={classes.card} item xs={12} sm={8} md={6}>
+           <Grid className={classes.card} item xs={12} sm={6} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
                     <CardMedia
@@ -122,19 +119,19 @@ const Portfolio = () => {
                     </CardActionArea>
                     <CardActions>
                         <Button size="small" color="primary">
-                        <a className={classes.link} href="https://github.com/arashhaji/movieimbd" target= "_blank">GitHub</a>
+                        <a className={classes.link} href="https://github.com/arashhaji/movieimbd" target= "blank">GitHub</a>
                           
                         </Button>
                         <Button  size="small" color="primary">
                         <a className={classes.link} href="https://movieimbd.netlify.com" target=
-                            "_blank">Live Demo</a>
+                            "blank">Live Demo</a>
                            
                         </Button>
                     </CardActions>
             </Card>
             </Grid>
             {/* Project 3 */}
-           <Grid className={classes.card} item xs={12} sm={8} md={6}>
+           <Grid className={classes.card} item xs={12} sm={6} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
                     <CardMedia
@@ -154,18 +151,18 @@ const Portfolio = () => {
                     </CardActionArea>
                     <CardActions>
                     <Button size="small" color="primary">
-                        <a className={classes.link}  href="https://github.com/Build-Week-Water-My-Plants3/Backend" target= "_blank">GitHub</a>
+                        <a className={classes.link}  href="https://github.com/Build-Week-Water-My-Plants3/Backend" target= "blank">GitHub</a>
                         </Button>
                         <Button  size="small" color="primary">
                         <a className={classes.link}  href="https://planetplanners.netlify.com" target=
-                            "_blank">Live Demo</a>
+                            "blank">Live Demo</a>
                            
                         </Button>
                     </CardActions>
             </Card>
             </Grid>
             {/* Project 4 */}
-           <Grid className={classes.card} item xs={12} sm={8} md={6}>
+           <Grid className={classes.card} item xs={12} sm={6} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
                     <CardMedia
@@ -185,18 +182,18 @@ const Portfolio = () => {
                     </CardActionArea>
                     <CardActions>
                     <Button size="small" color="primary">
-                        <a className={classes.link}  href="" target= "_blank">GitHub</a>
+                        <a className={classes.link}  href="" target= "blank">GitHub</a>
                         </Button>
                         <Button  size="small" color="primary">
                         <a className={classes.link}  href="" target=
-                            "_blank">Live Demo</a>
+                            "blank">Live Demo</a>
                            
                         </Button>
                     </CardActions>
             </Card>
             </Grid>
             {/* Project 5 */}
-           <Grid className={classes.card} item xs={12} sm={8} md={6}>
+           <Grid className={classes.card} item xs={12} sm={6} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
                     <CardMedia
@@ -210,24 +207,24 @@ const Portfolio = () => {
                             Under Construction
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                        My very own Blog website. Were I can post my favorite blogs about Techology.
+                        My very own Blog website. Were I can post my favorite blogs.
                         </Typography>
                     </CardContent>
                     </CardActionArea>
                     <CardActions>
                     <Button size="small" color="primary">
-                        <a  className={classes.link}  href="" target= "_blank">GitHub</a>
+                        <a  className={classes.link}  href="" target= "blank">GitHub</a>
                         </Button>
                         <Button  size="small" color="primary">
                         <a className={classes.link}  href="" target=
-                            "_blank">Live Demo</a>
+                            "blank">Live Demo</a>
                            
                         </Button>
                     </CardActions>
             </Card>
            </Grid>
             {/* Project 6*/}
-           <Grid className={classes.card} item xs={12} sm={8} md={6}>
+           <Grid className={classes.card} item xs={12} sm={6} md={4}>
             <Card className={classes.cardContainer}>
                 <CardActionArea>
                     <CardMedia
@@ -247,11 +244,11 @@ const Portfolio = () => {
                     </CardActionArea>
                     <CardActions>
                     <Button size="small" color="primary">
-                        <a  className={classes.link}  href="https://github.com/Lambda-School-Labs/miracle-messages-fe" target= "_blank">GitHub</a>
+                        <a  className={classes.link}  href="https://github.com/Lambda-School-Labs/miracle-messages-fe" target= "blank">GitHub</a>
                         </Button>
                         <Button  size="small" color="primary">
                         <a className={classes.link}  href="https://production.d1v4uoi0wi2hmy.amplifyapp.com" target=
-                            "_blank">Live Demo</a>
+                            "blank">Live Demo</a>
                            
                         </Button>
                     </CardActions>
