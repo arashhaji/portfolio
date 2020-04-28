@@ -3,12 +3,13 @@ import Navbar from './Navbar'
 import Header from './Header'
 import Particles from 'react-particles-js';
 import { makeStyles } from '@material-ui/core/styles';
+import { red } from '@material-ui/core/colors';
 
 //CSS Styles
 
 const useStyles = makeStyles({
-    particlesCanva: {
-        position: "absolute",
+    particles: {
+        position: "fixed",
         opacity: "0.9"
     }
 })
@@ -22,7 +23,7 @@ const Home = () => {
             <Navbar/>
             <Header />
             <Particles
-            canvasClassName={classes.particlesCanva}
+            canvasClassName={classes.particls}
             params={{
                 particles: {
                     number: {
@@ -35,8 +36,8 @@ const Home = () => {
                     shape: {
                         type: "circle",
                         stroke: {
-                            width: 1,
-                            color: "#00ffff"
+                            width: .1,
+                            
                         }
                         
                     },
@@ -45,13 +46,13 @@ const Home = () => {
                         random: false,
                         anim: {
                             enable: true,
-                            speed: 6,
-                            size_min: 0.1,
+                            speed: 4,
+                            size_min: 0.8,
                             sync: true
                         }
                     },
                     opacity: {
-                        value: 1,
+                        value: 5,
                         random: true,
                         anim: {
                             enable: true,

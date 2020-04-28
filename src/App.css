@@ -1,8 +1,5 @@
 body {
   background-image: url(./dark3.jpeg);
-  -webkit-background: cover;
-  -moz-background: cover;
-  -o-background: cover;
   background-size: cover;
   background-repeat: repeat;
  
