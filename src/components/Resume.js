@@ -138,7 +138,7 @@ const Resume = () => {
                         variant="subtitle1" 
                         align="center" // add color
                         style={{color: "#00FFFF"}}>
-                            Forward-thinking Full Stack Web Development Student proficient in generating high-quality projects by leveraging tenacious approach and strong attention to detail. Service-oriented and performance-driven with excellent organizational, multitasking and problem-solving abilities. Experienced Franchise Owner with a demonstrated history of working in the food & beverages industry. Skilled in Customer Service, Sales, Public Speaking, Social Media, and Leadership. Strong business development professional with a Bachelor's degree focused in Marketing from Western Michigan University. 
+                         Analytical and proactive Project Manager with 15+ years of experience in execution of million-dolor operations, project management, and strategic planning. Direct teams toward execution of top-level objectives and maximize bottom-line results. Exceptional strategist with notable success in high-level projects. Career record of surpassing client and organizational expectations.
                         </Typography>
 
                     </Box>
@@ -179,7 +179,7 @@ const Resume = () => {
                         variant="body1" 
                         align="center" // add color
                         style={{color: "white"}}>
-                            Donya events
+                            Donya Events
                         </Typography>
                         <Typography 
                         variant="subtitle1" 
@@ -209,8 +209,7 @@ const Resume = () => {
                         variant="subtitle1" 
                         align="center" // add color
                         style={{color: "#00FFFF"}}>
-                            Full Stack Web Development JavaScript, REACT, HTML, CSS, NODE, PYTHON, REDUX, and SQL. 
-                           
+                            Full Stack Web Development JavaScript, REACT, HTML, CSS, NODE, PYTHON, REDUX, MONGODB, and SQL. Lambda School is an accelerated program with an immersive (full-time, 40+hours/week) hands-on curriculum with a focus on computer science, software engineering , and web development.  
                         </Typography>
 
                     </Box>
@@ -234,6 +233,7 @@ const Resume = () => {
                         align="center" // add color
                         style={{color: "#00FFFF"}}>
                             Bachelor Degree In Marketing with a Minor in Economics.
+                            Studied the art and science of figuring out what people want. Armed with that knowledge, I create, optimize and promote products and services to sell to a target demographic.
                         </Typography>
 
                     </Box>
@@ -269,7 +269,7 @@ const Resume = () => {
                         align="center"
                         className={classes.subHeading}
                         >
-                           Skills
+                           Technical Skills
                         </Typography>
                         <Typography 
                         variant="body1" 
@@ -281,7 +281,7 @@ const Resume = () => {
                         variant="subtitle1" 
                         align="center" // add color
                         style={{color: "#00FFFF"}}>
-                             Active Listening, Adaptability, Communication, Creativity, Critical Thinking, Customer Service, Decision Making, Interpersonal Communication, Management, Leadership, Organization, Public Speaking, Problem-solving, and Teamwork.
+                        HTML5 / CSS / React.js / Redux / Cypress.io / Sass / Less / Python / JavaScript/ Node.js / Express.js / MangoDB / SQL / PostgresSQL
                         </Typography>
 
                     </Box>

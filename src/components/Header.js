@@ -45,7 +45,15 @@ const Header = () => {
                 </Typography>
                 <br />
                 <Typography className={classes.subtitle} variant="h6">
-                    <Typed strings={["I'm a full-stack web developer"]} 
+                    <Typed strings={["Project Manager | Full Stack Web Developer"]} 
+                    typeSpeed={30} 
+                    backSpeed={60}
+                    // loop
+                    />
+                </Typography>
+                <br />
+                <Typography className={classes.subtitle} variant="h6">
+                    <Typed strings={["Call Me 248.345.4273"]} 
                     typeSpeed={40} 
                     backSpeed={60}
                     // loop
