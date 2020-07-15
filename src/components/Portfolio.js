@@ -238,7 +238,7 @@ const Portfolio = () => {
                             Miracle Messages
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                        An application for the homeless to find their loved ones.
+                        An application for the homeless connect with their loved ones.
                         </Typography>
                     </CardContent>
                     </CardActionArea>
