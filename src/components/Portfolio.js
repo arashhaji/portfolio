@@ -82,6 +82,9 @@ const Portfolio = () => {
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
                        Created a marketing page for a Chef Portfolio Page.
+                       <break>
+                       <p></p>Tech Stack: Html5, CSS, and JavaScript
+                       </break>
                         </Typography>
                     </CardContent>
                     </CardActionArea>
@@ -114,6 +117,9 @@ const Portfolio = () => {
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
                         Created a movie application that displays current movies.
+                        <break>
+                       <p></p>Tech Stack: Html5, CSS, React, and JavaScript
+                       </break>
                         </Typography>
                     </CardContent>
                     </CardActionArea>
@@ -146,6 +152,9 @@ const Portfolio = () => {
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
                         Created a Backend for an application that makes sure you water your plants.
+                        <break>
+                       <p></p>Tech Stack: Node.js, Express.js, and Knex
+                       </break>
                         </Typography>
                     </CardContent>
                     </CardActionArea>
@@ -173,10 +182,16 @@ const Portfolio = () => {
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5">
-                            Under Construction
+                            Tic/Tac/Toe
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
                         Under Construction
+                        <break>
+                       <p></p>Tech Stack: Python3
+                       </break>
+                       <break>
+                       <p></p>
+                       </break>
                         </Typography>
                     </CardContent>
                     </CardActionArea>
@@ -208,6 +223,9 @@ const Portfolio = () => {
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
                         My very own Blog website. Were I can post my favorite blogs.
+                        <break>
+                       <p></p>Tech Stack: MongoDB, React, Node.js, Express.js, React, and CSS
+                       </break>
                         </Typography>
                     </CardContent>
                     </CardActionArea>
@@ -239,6 +257,9 @@ const Portfolio = () => {
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
                         An application for the homeless connect with their loved ones.
+                        <break>
+                       <p></p>Tech Stack: Html5, CSS, JavaScript, Knex, Node.js, Express.js, and React
+                       </break>
                         </Typography>
                     </CardContent>
                     </CardActionArea>

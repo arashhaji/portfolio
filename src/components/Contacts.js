@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { makeStyles, withStyles} from '@material-ui/core/styles';
-import { TextField,Typography,Button,Grid,Box } from '@material-ui/core';
+import { TextField,Typography,Button,Grid,Box, TextareaAutosize } from '@material-ui/core';
 import SendIcon from '@material-ui/icons/Send';
 import Navbar from './Navbar';
 
@@ -57,7 +57,8 @@ const initialValue = {
     last: '', 
     company: '', 
     phone: '', 
-    email: ''
+    email: '',
+    message: ''
 }
 
 const Contacts = () => {
@@ -179,8 +180,24 @@ const Contacts = () => {
                     size="medium"
                     />
                     </div>
-
-
+                    <div className="input-background">
+                    <InputField
+                    fullWidth={true} 
+                    label="Phone Number"
+                    name="message"
+                    value={contact.message} 
+                    id="standard-multiline-static"
+                    label="Message Me"
+                    multiline
+                    rows={4}
+                    defaultValue=""
+                    inputProps={{ style: {color:"white", backgroundColor: "",}}} 
+                    margin="dense" 
+                    size="medium"
+                    onChange={handleChange}
+                    variant="outlined" 
+                    />
+                    </div>
                     <Button 
                     type="submit"
                     className={classes.button}
